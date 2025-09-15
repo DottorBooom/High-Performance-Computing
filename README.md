@@ -84,7 +84,7 @@ Introduction to High Performance Computing covering fundamental concepts, perfor
 + HPC ecosystem: hardware, software, and human resources
 + Current exascale systems and performance vs productivity considerations
 
-Slides are available [here](Lectures/00_Lecture/)
+Slides are available [here](Lectures/00_Lecture.pdf/)
 
 ## HPC Hardware and Software
 
@@ -98,7 +98,7 @@ Hardware and software foundations of HPC systems, explaining why HPC is inherent
 + Memory architectures: UMA vs NUMA, cache hierarchies
 + Memory wall problem and parallelism challenges
 
-Slides are available [here](Lectures/01_Lecture/)
+Slides are available [here](Lectures/01_Lecture.pdf/)
 
 ## HPC Software Stack
 
@@ -112,7 +112,7 @@ Overview of the complete software stack required for HPC systems, from system ma
 + Compiler suites: GNU, Intel, PGI - optimization vs portability trade-offs
 + Library types: static vs shared libraries, dependency management
 
-Slides are available [here](Lectures/02_Lecture/)
+Slides are available [here](Lectures/02_Lecture.pdf/)
 
 ## Code Optimization Fundamentals
 
@@ -127,7 +127,7 @@ Introduction to code optimization principles and compiler techniques for single-
 + Memory aliasing problems and the 'restrict' qualifier in C
 + Storage classes and variable qualifiers (const, volatile, register)
 
-Slides are available [here](Lectures/03_Lecture/)
+Slides are available [here](Lectures/03_Lecture.pdf/)
 
 ## Modern CPU Architecture
 
@@ -143,7 +143,7 @@ Detailed exploration of modern single-core CPU architecture evolution, from simp
 + Power wall challenges: static vs dynamic power consumption, thermal design
 + Cache coherency problems in multi-socket systems
 
-Slides are available [here](Lectures/04_Lecture/)
+Slides are available [here](Lectures/04_Lecture.pdf/)
 
 ## Practical Code Optimization
 
@@ -158,7 +158,7 @@ Hands-on techniques for code optimization with concrete examples, focusing on lo
 + Local accumulator patterns for reduction operations
 + Fast-math compiler flags and IEEE compliance trade-offs
 
-Slides are available [here](Lectures/05_Lecture/)
+Slides are available [here](Lectures/05_Lecture.pdf/)
 
 ## Memory Management and Execution Model
 
@@ -173,7 +173,7 @@ Deep dive into program execution model, memory organization, and the fundamental
 + Memory addressing modes and compiler optimization differences
 + Variable scope and lifetime implications for performance
 
-Slides are available [here](Lectures/06_Lecture/)
+Slides are available [here](Lectures/06_Lecture.pdf/)
 
 ## Cache Optimization and Data Locality
 
@@ -188,7 +188,7 @@ Advanced techniques for optimizing cache performance through memory access patte
 + Space-filling curves: Z-order (Morton), Hilbert curves for locality preservation
 + Memory mountain analysis and cache size detection techniques
 
-Slides are available [here](Lectures/07_Lecture/)
+Slides are available [here](Lectures/07_Lecture.pdf/)
 
 ## Loop Optimization and Vectorization
 
@@ -203,7 +203,7 @@ Advanced loop optimization techniques focusing on vectorization, compiler direct
 + Data alignment requirements and performance implications
 + Vectorization obstacles: complex control flow, function calls, memory aliasing
 
-Slides are available [here](Lectures/08_Lecture/)
+Slides are available [here](Lectures/08_Lecture.pdf/)
 
 ## Advanced Loop Techniques and Prefetching
 
@@ -218,7 +218,7 @@ Sophisticated loop optimization strategies with focus on arithmetic intensity cl
 + Register spill management and code bloating prevention
 + Performance measurement and analysis: IPC, cycles per element, cache miss patterns
 
-Slides are available [here](Lectures/09_Lecture/)
+Slides are available [here](Lectures/09_Lecture.pdf/)
 
 ## Introduction to Parallel Computing
 
@@ -234,7 +234,7 @@ Comprehensive introduction to parallel computing fundamentals, HPC architectures
 + Parallel performance theory: Amdahl's law, Gustafson's law, strong vs weak scalability
 + MPI and OpenMP programming paradigms introduction
 
-Slides are available [here](Lectures/10_Lecture/)
+Slides are available [here](Lectures/10_Lecture.pdf/)
 
 ## OpenMP Fundamentals
 
@@ -249,7 +249,7 @@ Introduction to OpenMP shared-memory programming model, covering basic concepts,
 + Static vs dynamic extent: lexical scope and orphan directives
 + Conditional compilation and portability considerations
 
-Slides are available [here](Lectures/11_Lecture/)
+Slides are available [here](Lectures/11_Lecture.pdf/)
 
 ## OpenMP Parallel Regions
 
@@ -264,7 +264,7 @@ Comprehensive coverage of OpenMP parallel regions, thread creation, memory manag
 + Nested parallelism: multi-level thread creation, environment variable control
 + OpenMP runtime functions and internal control variables (ICVs)
 
-Slides are available [here](Lectures/12_Lecture/)
+Slides are available [here](Lectures/12_Lecture.pdf/)
 
 ## Parallel Algorithm Analysis
 
@@ -279,7 +279,7 @@ Analysis of parallel algorithms design and complexity, focusing on prefix sum im
 + Work complexity vs span complexity in parallel algorithm design
 + Trade-offs between algorithmic approaches and practical implementation considerations
 
-Slides are available [here](Lectures/13_Lecture/)
+Slides are available [here](Lectures/13_Lecture.pdf/)
 
 ## OpenMP Parallel Loops
 
@@ -294,7 +294,7 @@ Advanced OpenMP loop parallelization techniques, work scheduling strategies, and
 + Loop clauses: collapse, nowait, ordered execution control
 + Nested parallelism within loops: parallel regions vs parallel for differences
 
-Slides are available [here](Lectures/14_Lecture/)
+Slides are available [here](Lectures/14_Lecture.pdf/)
 
 ## OpenMP NUMA Awareness
 
@@ -310,7 +310,7 @@ Advanced OpenMP thread affinity and memory allocation strategies for NUMA (Non-U
 + Performance impact analysis: bandwidth aggregation, cache utilization, synchronization costs
 + Topology discovery tools: numactl, lstopo, hwloc utilities
 
-Slides are available [here](Lectures/15_Lecture/)
+Slides are available [here](Lectures/15_Lecture.pdf/)
 
 ## MPI Fundamentals
 
@@ -325,7 +325,7 @@ Introduction to Message Passing Interface (MPI) for distributed-memory parallel 
 + Process identification: rank determination, size queries, communication contexts
 + MPI analogy: postal service model for understanding message passing concepts
 
-Slides are available [here](Lectures/16_Lecture/)
+Slides are available [here](Lectures/16_Lecture.pdf/)
 
 ## MPI Point-to-Point Communication
 
@@ -341,7 +341,7 @@ Comprehensive coverage of MPI point-to-point communication patterns, including b
 + Advanced patterns: MPI_Sendrecv, probe operations, ping-pong performance testing
 + Practical exercises: latency/bandwidth measurement, safe communication design
 
-Slides are available [here](Lectures/17_Lecture/)
+Slides are available [here](Lectures/17_Lecture.pdf/)
 
 ## MPI Collective Communication
 
@@ -357,7 +357,7 @@ Advanced MPI collective communication operations for efficient data distribution
 + Groups and communicators: creating custom communicators, MPI_Comm_split operations
 + In-place operations: MPI_IN_PLACE usage for memory-efficient collective operations
 
-Slides are available [here](Lectures/18_Lecture/)
+Slides are available [here](Lectures/18_Lecture.pdf/)
 
 ## HPC Profiling and Analysis
 
@@ -373,7 +373,7 @@ Comprehensive guide to HPC application profiling and performance analysis, cover
 + Hardware counter interfaces: PAPI, PMU access, vendor-specific profiling tools
 + Profiler accuracy and limitations: avoiding measurement artifacts and interpretation pitfalls
 
-Slides are available [here](Lectures/19_Lecture/)
+Slides are available [here](Lectures/19_Lecture.pdf/)
 
 ## HPC Debugging Techniques
 
@@ -389,7 +389,7 @@ Advanced debugging strategies for parallel HPC applications, covering both seria
 + Memory debugging: valgrind integration, memory error detection, leak analysis
 + Practical debugging patterns: safe debugging code injection, environment-based activation
 
-Slides are available [here](Lectures/20_Lecture/)
+Slides are available [here](Lectures/20_Lecture.pdf/)
 
 ## Performance Monitoring and Hardware Counters
 
@@ -405,4 +405,4 @@ Deep dive into Performance Monitoring Units (PMUs) and hardware-based performanc
 + Alternative tools integration: PAPI library fundamentals, gperftools integration
 + Performance analysis workflow: data collection strategies, bottleneck identification, optimization guidance
 
-Slides are available [here](Lectures/21_Lecture/)
+Slides are available [here](Lectures/21_Lecture.pdf/)
